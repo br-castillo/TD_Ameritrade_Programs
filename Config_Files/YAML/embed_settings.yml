@@ -1,0 +1,6 @@
+# Settings that apply to embedded messages that the bot sends.
+Embed Settings:
+# The settings that the bot will use for embed footers.
+  Footer:
+    Text: StockOut App by BotSyndicate LLC, 2021
+    Icon URL: https://i.ibb.co/2yxFzL9/Stock-Out-logo-whitebg.png
