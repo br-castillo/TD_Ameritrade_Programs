@@ -338,4 +338,4 @@ def order_sniper():
             print(">>>>> STARTING LOOP")
             await get_orders()
 
-    client.run('Nzk5MDQ1MTUyNDY3NDUxOTM1.X_92yQ.26tnFPjDIn4O5Wu64v58RlsHAXQ')
+    client.run(#ENTER DISCORD CHANNEL ID HERE IN QUOTES)
