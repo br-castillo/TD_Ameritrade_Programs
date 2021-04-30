@@ -8,7 +8,7 @@ from config import client_id, username, password, account_number, access_token, 
 # define headers
 header = {'Authorization': "Bearer {}".format(access_token)}
 
-savedOrderId = '15963144'
+savedOrderId = #SAVE ORDER HERE
 # define the endpoint for saved orders, including your account_ID
 endpoint = r"https://api.tdameritrade.com/v1/accounts/{}/savedorders/{}".format(account_ID, savedOrderId)
 
