@@ -499,7 +499,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
     @asyncSlot()
     async def on_clicked(self):
-        await self.client.start('Nzk5MDQ1MTUyNDY3NDUxOTM1.X_92yQ.26tnFPjDIn4O5Wu64v58RlsHAXQ')
+        await self.client.start(#ENTER DISCORD CHANNEL ID HERE IN QUOTES)
 
     def disableButton(self):
         if len(self.discord_channel_line.text()) > 0:
