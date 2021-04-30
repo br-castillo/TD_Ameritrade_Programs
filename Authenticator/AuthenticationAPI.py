@@ -14,7 +14,7 @@ def auth_api():
     template = yaml.load(file)
 
   # define path to chrome driver
-  executable_path = {'executable_path':r'C:\Users\Bryan Castillo\Desktop\chromedriver'}
+  executable_path = {'executable_path':r'#EXECUTABLE PATH TO SELENIUM WEBRIDER HERE'}
 
   # Set some default behaviors for browser
   #options = webdriver.ChromeOptions()
@@ -77,17 +77,17 @@ def auth_api():
 
   # Answer the Security Questions.
   try:
-    if browser.is_text_present('What is the name of the first company you worked for?'):
-      browser.find_by_id('secretquestion0').first.fill('dad')
+    if browser.is_text_present(#QUESTION 1 FROM WEBSITE HERE):
+      browser.find_by_id('secretquestion0').first.fill(#ANSWER 1 HERE)
 
-    elif browser.is_text_present('What is your best friend\'s first name?'):
-      browser.find_by_id('secretquestion0').first.fill('austin')
+    elif browser.is_text_present(#QUESTION 2 FROM WEBSITE HERE):
+      browser.find_by_id('secretquestion0').first.fill(#ANSWER 2 HERE)
 
-    elif browser.is_text_present('What was the name of your first pet?'):
-      browser.find_by_id('secretquestion0').first.fill('ruffis')
+    elif browser.is_text_present(#QUESTION 3 FROM WEBSITE HERE):
+      browser.find_by_id('secretquestion0').first.fill(#ANSWER 3 HERE)
 
-    elif browser.is_text_present("Where did you meet your spouse for the first time? (Enter full name of city only.)"):
-      browser.find_by_id('secretquestion0').first.fill('San Jose')
+    elif browser.is_text_present(#QUESTION 4 FROM WEBSITE HERE):
+      browser.find_by_id('secretquestion0').first.fill(#ANSWER 4 HERE)
   except:
     print("The questions or answers were typed incorrectly here.")
   finally:
